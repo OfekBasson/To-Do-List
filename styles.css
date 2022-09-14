@@ -1,0 +1,69 @@
+body {
+    background-color: #EEF1FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu {
+    width: 100%;
+    height: 40px;
+    background-color:#AAC4FF;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menuLink {
+    margin: 10px;
+}
+
+#addNewTaskSection {
+    background-color: #D2DAFF;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#tasksSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task {
+    background-color: #AAC4FF;
+    width: 70%;
+    height: 75px;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px;
+}
+
+.removeButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+
+}
+
+.checkBox {
+    position: absolute;
+    left: 20px;
+
+}
+
